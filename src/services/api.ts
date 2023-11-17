@@ -5,5 +5,5 @@ export const config = {
     },
   }
 export const api = axios.create({
-    baseURL: process.env.API_URL,
+    baseURL: "https://zaentregas.vercel.app/api",
 })
