@@ -1,4 +1,4 @@
-import { createData, getRefData, paginateIndex, updateRef } from "@/utils/connections"
+import { createData, getRefData} from "@/utils/connections"
 export default async function criarTeste(req, res) {
     console.log("criarTeste")
     console.log(req.body)

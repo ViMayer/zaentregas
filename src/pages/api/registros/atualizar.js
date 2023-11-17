@@ -1,4 +1,4 @@
-import { updateRef, getRefData, paginateIndex, updateRef } from "@/utils/connections"
+import { updateRef } from "@/utils/connections"
 export default async function atualizarTeste(req, res) {
     console.log("atualizarTeste")
     console.log(req.body)

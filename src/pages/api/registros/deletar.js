@@ -1,4 +1,4 @@
-import { deleteRef, getRefData, paginateIndex, updateRef } from "@/utils/connections"
+import { deleteRef } from "@/utils/connections"
 export default async function deletarTeste(req, res) {
     console.log("deletarTeste")
     console.log(req.body)
